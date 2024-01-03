@@ -1,0 +1,29 @@
+table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  th, td {
+    padding: 10px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #ffffff; /* Set your preferred background color for header cells */
+  }
+  
+  tbody tr:nth-child(odd) {
+    background-color: #fff0c7; /* Set your preferred background color for odd rows */
+  }
+  
+  .content_td {
+    width: 30%;
+    overflow: auto;
+  }
+  
+  img {
+    width: 100%;
+    height: auto;
+    object-fit: scale-down;
+  }
+  
